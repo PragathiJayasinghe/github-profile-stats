@@ -1,0 +1,56 @@
+name: Update GitHub Stats Card
+
+on:
+  schedule:
+    # Runs every day at 00:30 UTC
+    - cron: "30 0 * * *"
+  workflow_dispatch:   # allows manual triggering from the GitHub UI
+
+permissions:
+  contents: write      # needed to commit and push the updated SVG
+
+jobs:
+  update-stats:
+    name: Generate & Commit Stats SVG
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Check out repository ──────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Set up Python ─────────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      # ── 3. Install dependencies ───────────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 4. Generate the SVG ───────────────────────────────────────────────────
+      - name: Generate stats SVG
+        env:
+          # GITHUB_TOKEN is automatically provided by GitHub Actions.
+          # It has read access to public data and write access to this repo.
+          # If you need stats from private repos, add a PAT as a secret named
+          # STATS_TOKEN and replace the line below with:
+          #   GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python generate_stats.py
+
+      # ── 5. Commit changes only if the SVG changed ─────────────────────────────
+      - name: Commit updated SVG
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg
+          # Exit cleanly (skip commit) when nothing has changed
+          if git diff --cached --quiet; then
+            echo "No changes to the SVG — skipping commit."
+          else
+            git commit -m "chore: update GitHub stats card [skip ci]"
+            git push
+          fi
