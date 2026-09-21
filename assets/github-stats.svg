@@ -38,7 +38,7 @@
     <text x="387" y="118"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="14" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">130</text>
+          text-anchor="end">131</text>
 
     <text x="38" y="150"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -71,7 +71,7 @@
     <text x="387" y="214"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="14" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">2</text>
+          text-anchor="end">3</text>
 
   
     <circle cx="437" cy="158" r="38"
@@ -107,7 +107,7 @@
           rx="6" ry="6"/>
   </clipPath>
   <g clip-path="url(#bar-clip)">
-    <rect x="525.00" y="88" width="224.02" height="14" fill="#F1E05A"/><rect x="749.02" y="88" width="135.04" height="14" fill="#3572A5"/><rect x="884.06" y="88" width="29.81" height="14" fill="#E44B23"/><rect x="913.87" y="88" width="27.79" height="14" fill="#6E7681"/><rect x="941.65" y="88" width="22.35" height="14" fill="#563D7C"/>
+    <rect x="525.00" y="88" width="224.33" height="14" fill="#F1E05A"/><rect x="749.33" y="88" width="135.17" height="14" fill="#3572A5"/><rect x="884.50" y="88" width="29.85" height="14" fill="#E44B23"/><rect x="914.35" y="88" width="27.26" height="14" fill="#6E7681"/><rect x="941.61" y="88" width="22.39" height="14" fill="#563D7C"/>
   </g>
 
   <!-- Legend -->
@@ -119,7 +119,7 @@
     <text x="740" y="130"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(51.03%)</text>
+          text-anchor="end">(51.10%)</text>
     <circle cx="750" cy="125" r="5" fill="#3572A5"/>
     <text x="760" y="130"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -127,7 +127,7 @@
     <text x="959" y="130"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(30.76%)</text>
+          text-anchor="end">(30.79%)</text>
     <circle cx="531" cy="151" r="5" fill="#E44B23"/>
     <text x="541" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -135,7 +135,7 @@
     <text x="740" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(6.79%)</text>
+          text-anchor="end">(6.80%)</text>
     <circle cx="750" cy="151" r="5" fill="#6E7681"/>
     <text x="760" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -143,7 +143,7 @@
     <text x="959" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(6.33%)</text>
+          text-anchor="end">(6.21%)</text>
     <circle cx="531" cy="177" r="5" fill="#563D7C"/>
     <text x="541" y="182"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -151,6 +151,6 @@
     <text x="740" y="182"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(5.09%)</text>
+          text-anchor="end">(5.10%)</text>
 
 </svg>
