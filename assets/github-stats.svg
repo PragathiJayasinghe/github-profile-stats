@@ -71,7 +71,7 @@
     <text x="387" y="214"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="14" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">1</text>
+          text-anchor="end">0</text>
 
   
     <circle cx="437" cy="158" r="38"
