@@ -38,7 +38,7 @@
     <text x="387" y="118"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="14" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">144</text>
+          text-anchor="end">132</text>
 
     <text x="38" y="150"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -49,7 +49,7 @@
     <text x="387" y="150"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="14" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">85</text>
+          text-anchor="end">86</text>
 
     <text x="38" y="182"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -107,7 +107,7 @@
           rx="6" ry="6"/>
   </clipPath>
   <g clip-path="url(#bar-clip)">
-    <rect x="525.00" y="88" width="227.23" height="14" fill="#F1E05A"/><rect x="752.23" y="88" width="121.65" height="14" fill="#3572A5"/><rect x="873.87" y="88" width="27.09" height="14" fill="#6E7681"/><rect x="900.96" y="88" width="26.87" height="14" fill="#E44B23"/><rect x="927.83" y="88" width="22.65" height="14" fill="#563D7C"/><rect x="950.48" y="88" width="13.52" height="14" fill="#6E7681"/>
+    <rect x="525.00" y="88" width="249.92" height="14" fill="#F1E05A"/><rect x="774.92" y="88" width="133.81" height="14" fill="#3572A5"/><rect x="908.73" y="88" width="24.94" height="14" fill="#563D7C"/><rect x="933.67" y="88" width="15.50" height="14" fill="#E44B23"/><rect x="949.16" y="88" width="14.84" height="14" fill="#B07219"/>
   </g>
 
   <!-- Legend -->
@@ -119,7 +119,7 @@
     <text x="740" y="130"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(51.76%)</text>
+          text-anchor="end">(56.93%)</text>
     <circle cx="750" cy="125" r="5" fill="#3572A5"/>
     <text x="760" y="130"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -127,15 +127,15 @@
     <text x="959" y="130"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(27.71%)</text>
-    <circle cx="531" cy="151" r="5" fill="#6E7681"/>
+          text-anchor="end">(30.48%)</text>
+    <circle cx="531" cy="151" r="5" fill="#563D7C"/>
     <text x="541" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
-          font-size="12" fill="#B1BAC4">TeX</text>
+          font-size="12" fill="#B1BAC4">CSS</text>
     <text x="740" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(6.17%)</text>
+          text-anchor="end">(5.68%)</text>
     <circle cx="750" cy="151" r="5" fill="#E44B23"/>
     <text x="760" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -143,22 +143,14 @@
     <text x="959" y="156"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(6.12%)</text>
-    <circle cx="531" cy="177" r="5" fill="#563D7C"/>
+          text-anchor="end">(3.53%)</text>
+    <circle cx="531" cy="177" r="5" fill="#B07219"/>
     <text x="541" y="182"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
-          font-size="12" fill="#B1BAC4">CSS</text>
+          font-size="12" fill="#B1BAC4">Java</text>
     <text x="740" y="182"
           font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
           font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(5.16%)</text>
-    <circle cx="750" cy="177" r="5" fill="#6E7681"/>
-    <text x="760" y="182"
-          font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
-          font-size="12" fill="#B1BAC4">Other</text>
-    <text x="959" y="182"
-          font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
-          font-size="12" font-weight="600" fill="#C9D1D9"
-          text-anchor="end">(3.08%)</text>
+          text-anchor="end">(3.38%)</text>
 
 </svg>
